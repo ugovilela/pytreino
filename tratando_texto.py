@@ -1,0 +1,5 @@
+nome = str(input('Nome: ')).strip()
+print(f'Passando para maiusculo: {nome.upper()}')
+print((f'Passando para minusculo: {nome.lower()}'))
+nletras = len(nome) - nome.count(' ')
+print(f'O numero de letras é {nletras}')
