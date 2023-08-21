@@ -1,0 +1,11 @@
+pessoas = {'cliente': 'hugo', 'sexo': 'M', 'idade': 37 }
+print('='*40)
+print(pessoas)
+print('=' * 40)
+print(f'{pessoas["cliente"]} tem {pessoas["idade"]} anos')
+print('='*40)
+print(pessoas.keys())
+print('='*40)
+print(pessoas.values())
+print('='*40)
+print(pessoas.items())
